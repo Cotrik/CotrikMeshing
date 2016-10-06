@@ -1,0 +1,73 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/cotrik/svn/hexmesh_2/src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2478287128/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2478287128.dir/build.make CMakeFiles/cmTryCompileExec2478287128.dir/build
+make[1]: Entering directory `/home/cotrik/svn/hexmesh_2/src/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/cotrik/svn/hexmesh_2/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2478287128.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2478287128.dir/CheckSymbolExists.c.o   -c /home/cotrik/svn/hexmesh_2/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2478287128
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2478287128.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTryCompileExec2478287128.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2478287128 -rdynamic 
+CMakeFiles/cmTryCompileExec2478287128.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2478287128] Error 1
+make[1]: Leaving directory `/home/cotrik/svn/hexmesh_2/src/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2478287128/fast] Error 2
+
+File /home/cotrik/svn/hexmesh_2/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/cotrik/svn/hexmesh_2/src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3071845258/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3071845258.dir/build.make CMakeFiles/cmTryCompileExec3071845258.dir/build
+make[1]: Entering directory `/home/cotrik/svn/hexmesh_2/src/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/cotrik/svn/hexmesh_2/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3071845258.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3071845258.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3071845258
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3071845258.dir/link.txt --verbose=1
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3071845258.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3071845258 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3071845258] Error 1
+make[1]: Leaving directory `/home/cotrik/svn/hexmesh_2/src/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3071845258/fast] Error 2
+
+
+Determining if the function glXGetProcAddressEXT exists failed with the following output:
+Change Dir: /home/cotrik/svn/hexmesh_2/src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec802115286/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec802115286.dir/build.make CMakeFiles/cmTryCompileExec802115286.dir/build
+make[1]: Entering directory `/home/cotrik/svn/hexmesh_2/src/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/cotrik/svn/hexmesh_2/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec802115286.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressEXT   -o CMakeFiles/cmTryCompileExec802115286.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec802115286
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec802115286.dir/link.txt --verbose=1
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=glXGetProcAddressEXT    CMakeFiles/cmTryCompileExec802115286.dir/CheckFunctionExists.c.o  -o cmTryCompileExec802115286 -rdynamic -lGL 
+CMakeFiles/cmTryCompileExec802115286.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `glXGetProcAddressEXT'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec802115286] Error 1
+make[1]: Leaving directory `/home/cotrik/svn/hexmesh_2/src/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec802115286/fast] Error 2
+
+

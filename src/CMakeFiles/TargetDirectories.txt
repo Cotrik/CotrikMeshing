@@ -1,0 +1,17 @@
+/home/cotrik/svn/hexmesh_2/src/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir
+/home/cotrik/svn/hexmesh_2/src/GeodesicsOnMeshes/Examples/CMakeFiles/GeodesicDistanceExample.dir
+/home/cotrik/svn/hexmesh_2/src/GeodesicsOnMeshes/Source/CMakeFiles/vtkMeshGeodesics.dir
+/home/cotrik/svn/hexmesh_2/src/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir
+/home/cotrik/svn/hexmesh_2/src/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir
+/home/cotrik/svn/hexmesh_2/src/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir
+/home/cotrik/svn/hexmesh_2/src/external/glfw-3.0.3/docs/CMakeFiles/docs.dir
+/home/cotrik/svn/hexmesh_2/src/CMakeFiles/vtk2mesh.dir
+/home/cotrik/svn/hexmesh_2/src/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir
+/home/cotrik/svn/hexmesh_2/src/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir
+/home/cotrik/svn/hexmesh_2/src/CMakeFiles/hex_refine.dir
+/home/cotrik/svn/hexmesh_2/src/external/CMakeFiles/GLEW_190.dir
+/home/cotrik/svn/hexmesh_2/src/GeodesicsOnMeshes/Testing/CMakeFiles/vtkMeshGeodesicTests.dir
+/home/cotrik/svn/hexmesh_2/src/GeodesicsOnMeshes/FastMarching/CMakeFiles/MeshGeodesics.dir
+/home/cotrik/svn/hexmesh_2/src/GeodesicsOnMeshes/Examples/CMakeFiles/GeodesicPathExample.dir
+/home/cotrik/svn/hexmesh_2/src/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir
+/home/cotrik/svn/hexmesh_2/src/external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir
